@@ -1,3 +1,9 @@
+ <?php
+    session_start();
+    if(!isset($_SESSION['ilosc'])){
+        $_SESSION['ilosc']=0;
+    }
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -8,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo.jpg">
-    <script src="../switchingPhotos.js"></script>
+    <script src="../switchingPhotos.js" async></script>
+    <script src="./mainP.js" async></script>
 </head>
 <body>
     
@@ -20,22 +27,28 @@
 
                 <img src="../img/logo.jpg" alt="logo">
 
-                <span><a href="../main/mainP.html">BIURTECH</a></span>
+                <span><a href="#">BIURTECH</a></span>
 
-                <a href="../cart/cart.html" id="cart"><img src="../img/shopping-cart .png" alt="koszyk"></a>
+                <a href="../cart/cart.php" id="cart"><img src="../img/shopping-cart .png" alt="koszyk"><span id="counter">
+                    
+                <?php
+                
+                    echo ":".$_SESSION['ilosc'];
+                
+                ?>
+
+                </span></a>
 
             </div>
 
             <div id="navi">
 
-                <a href="../desks/desksP.html">Biurka</a>
+                <a href="../desks/desksP.php">Biurka</a>
 
-                <a href="../ele/electronicsP.html">Elektronika</a>
+                <a href="../chairs/chairsP.php">Fotele</a>
 
-            </div>
+                <a href="../ele/electronicsP.php">Elektronika</a>
 
-            <div id="name">
-                <h3>Fotele</h3>
             </div>
 
         </div>
@@ -72,43 +85,43 @@
 
             </fieldset>
 
-            <div id="lower">
+            <fieldset id="lower">
+
+                <legend>Polecane</legend>
 
                 <div class="row">
 
                     <div class="photo">
-                     <a href="../products/chairs/chair1.html" class="linkP">
-                          <img src="../img/changing/chairs/chair1.jpg" alt="produk" class="photoP">
-                          <p class="nameP">Fotel biurowy Zira</p>
+                     <a href="#" class="linkP">
+                          <img src="#" alt="produk" class="photoP">
+                          <p class="nameP">Podpis</p>
                      </a>
                     </div>
 
                     <div class="photo">
-                        <a href="../products/chairs/chair2.html" class="linkP">
-                             <img src="../img/changing/chairs/chair2.jpg" alt="produk" class="photoP">
-                             <p class="nameP">Fotel biurowy Shine czarny</p>
+                        <a href="#" class="linkP">
+                             <img src="#" alt="produk" class="photoP">
+                             <p class="nameP">Podpis</p>
                         </a>
                        </div>
 
                        <div class="photo">
-                        <a href="../products/chairs/chair3.html" class="linkP">
-                             <img src="../img/changing/chairs/chair3.jpg" alt="produk" class="photoP">
-                             <p class="nameP">Fotel biurowy Shine biały</p>
+                        <a href="#" class="linkP">
+                             <img src="#" alt="produk" class="photoP">
+                             <p class="nameP">Podpis</p>
                         </a>
                        </div>
 
                        <div class="photo">
-                        <a href="../products/chairs/chair4.html" class="linkP">
-                             <img src="../img/changing/chairs/chair4.jpg" alt="produk" class="photoP">
-                             <p class="nameP">Fotel gabinetowy Corium</p>
+                        <a href="#" class="linkP">
+                             <img src="#" alt="produk" class="photoP">
+                             <p class="nameP">Podpis</p>
                         </a>
                        </div>
 
                 </div>
 
-                </div>
-
-            </div>
+            </fieldset>
 
         </div>
 

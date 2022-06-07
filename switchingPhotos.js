@@ -11,9 +11,9 @@ const conts = ["Fotel gabinetowy Zira - zderzenie piękna z komfortem. Zaprojekt
 const prices = ["<s>2 200 PLN</s><b> 1 999 PLN </b>",
 "<s>500 PLN</s><b> 399 PLN </b>",
 "<s>550 PLN</s><b> 400 PLN </b>"];
-const links =["../products/chairs/chair1.html",
-"../products/desks/desk3.html",
-"../products/elec/elec1.html"];
+const links =["../products/chairs/chair1.php",
+"../products/desks/desk3.php",
+"../products/elec/elec1.php"];
 
 var i = 0;
 

@@ -11,7 +11,7 @@ const photos2 = ["../img/changing/chairs/chair1.jpg",
 "../img/changing/elec/elec2.jpg",
 "../img/changing/elec/elec3.jpg",
 "../img/changing/elec/elec4.jpg"];
-
+s
 const names2 = [
 "Fotel biurowy Zira",
 "Fotel biurowy Shine czarny",
@@ -28,18 +28,18 @@ const names2 = [
 ];
 
 const links2=[
-"../products/chairs/chair1.html",
-"../products/chairs/chair2.html",
-"../products/chairs/chair3.html",
-"../products/chairs/chair4.html",
-"../products/desks/desk1.html",
-"../products/desks/desk2.html",
-"../products/desks/desk3.html",
-"../products/desks/desk4.html",
-"../products/elec/elec1.html",
-"../products/elec/elec2.html",
-"../products/elec/elec3.html",
-"../products/elec/elec4.html"
+"../products/chairs/chair1.php",
+"../products/chairs/chair2.php",
+"../products/chairs/chair3.php",
+"../products/chairs/chair4.php",
+"../products/desks/desk1.php",
+"../products/desks/desk2.php",
+"../products/desks/desk3.php",
+"../products/desks/desk4.php",
+"../products/elec/elec1.php",
+"../products/elec/elec2.php",
+"../products/elec/elec3.php",
+"../products/elec/elec4.php"
 ];
 
 var photo2 = document.getElementsByClassName("photoP");
@@ -57,7 +57,7 @@ window.onload = random4;
 function random4(){
     zamien();
 
-    for(var i = 0 ; i<=photo2.length ; i++){
+    for(var i = 0 ; i<=4 ; i++){
         photo2[i].src=photos2[arr[i]];
         name2[i].innerHTML=names2[arr[i]];
         link2[i].href=links2[arr[i]];
