@@ -1,4 +1,4 @@
- <?php
+<?php
     session_start();
     if(!isset($_SESSION['ilosc'])){
         $_SESSION['ilosc']=0;
@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo.jpg">
-    <script src="../switchingPhotos.js" async></script>
-    <script src="./mainP.js" async></script>
+    <script src="../switchingPhotos.js"></script>
+    <script src="./mainP.js"></script>
 </head>
 <body>
     

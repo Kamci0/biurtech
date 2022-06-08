@@ -3,14 +3,6 @@ body{
     font-family: sans-serif;
 }
 
-*{
-    margin: 0;
-}
-
-a:-webkit-any-link{
-    text-decoration: none;
-}
-
 /*Container style*/
 
 #container{
@@ -99,71 +91,93 @@ a:-webkit-any-link{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: larger;
-    margin: 30px 0;
 }
 
-/*Name style*/
+/*Number style*/
 
-#content #name{
-    font-size: larger;
-    border-bottom: 2px solid #176560;
-}
-
-#content #name p{
+#content #number{
     width: max-content;
+    border-bottom: 2px solid #176560;
+    font-size: larger;
+    padding: 9px;
+    margin: 15px 0;
 }
 
-/*product style*/
-
-#product{
-    margin-top: 20px;
+#content #number p{
+    margin: 0;
 }
 
-#product img{
-    border: 1px solid #176560;
-}
+/*Inside style*/
 
-/*info style*/
-
-#content #info{
-    width: 40%;
-    text-align: justify;
-}
-
-#content #info #action{
-    font-weight: bold;
-    border-bottom: 2px dotted #176560;
+#inside{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    border: none;
+    border-left: 2.5px solid #176560;
+    border-top: 1.8px solid #176560;
+    border-top-left-radius: 7px;
+    margin-bottom: 20px;
 }
 
-#content #info #action #adding{
+
+#inside legend{
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*Products styles*/
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product img{
+    width: 40%;
     border: 1px solid #176560;
+    box-shadow: 2px 2px #69A88D;
+}
+
+.product span{
+    padding: 2px;
+    font-size: larger;
+    border-right: 2px solid #176560;
+}
+
+.product #removing{
+    border: 1px solid #e3504d;
     border-radius: 3px;
     background-color: #F3EEE6;
-    color: #176560;
-    padding: 6px;
+    color: #e3504d;
+    padding: 4px;
+    letter-spacing: 1px;
     margin-bottom: 4px;
-    box-shadow: 2px 2px #69A88D;
+    box-shadow: 2px 2px #e3504d;
     text-decoration: none;
     font-size: large;
 }
 
-#content #info #action #adding:active{
+.product #removing:active{
     box-shadow: none;
 }
 
-#content #info #bonus{
-    margin-top: 10px;
-    border-top: 2px solid #176560;
-}
-#content #info #bonus p{
-    font-weight: bold;
-    font-size: largew;
+.product #pls{
+    font-size: larger;
+    font-weight: bolder;
 }
 
+.product #plus{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    background-color: #F3EEE6;
+    border: 0.5px solid #176560;
+    padding: 4px;
+    margin-left: 9px;
+}
 /*Footer style*/
+
 #footer{
     height: max-content;
     width: 100%;
@@ -171,12 +185,10 @@ a:-webkit-any-link{
     border-top: 3px solid #176560;
     display: flex;
     justify-content: space-around;
-
 }
 
 #footer ul{
     list-style-type: none;
-    margin-top: 7px;
     border-top: 3px solid #176560;
 }
 
@@ -184,5 +196,4 @@ a:-webkit-any-link{
     padding: 0;
     margin: 0;
     color: #F3EEE6;
-    padding-top: 9px;
 }

@@ -14,7 +14,7 @@ const prices = ["<s>2 200 PLN</s><b> 1 999 PLN </b>",
 const links =["../products/chairs/chair1.php",
 "../products/desks/desk3.php",
 "../products/elec/elec1.php"];
-
+//kamci0
 var i = 0;
 
 window.onload = zamien;

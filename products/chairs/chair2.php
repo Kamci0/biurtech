@@ -8,8 +8,8 @@
     }
     require_once("../adding.php");
 
-    if (isset($_GET['name'])) {
-        dodaj("1");
+    if ($_GET['name']<0) {
+        dodaj("2");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Zira</p><!---->
+                <p>Fotel biurowy Shine czarny</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair1.jpg" alt=""><!---->
+                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
 
             </div>
 
@@ -75,18 +75,22 @@
 
                 <div id="action">
                     
-                    <span>1 999 PLN</span> 
-                    <a href="chair1.php?name=true" id="adding" >Dodaj do koszyka</a>
+                    <span>1 335 PLN</span> 
+
+                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
+
+
+                    </form>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel gabinetowy Zira - zderzenie piękna z komfortem. Zaprojektowany przez studio Horn Design and Engineering fotel Zira przywodzi na myśl skojarzenia z prestiżowymi przestrzeniami. Stworzony z myślą o zapewnieniu najwyższego poziomu komfortu przy jednoczesnym zachowaniu estetyki. W efekcie powstał fotel, który nie tylko wygląda niesamowicie, ale również zapewnia wsparcie całego ciała. Wraz z intuicyjnym mechanizmem gwarantuje pełną ergonomię i komfort siedzenia na co dzień. Zira to z jednej strony minimalistyczny design, w którym nie ma żadnych zbędnych elementów ponad to co niezbędne.</p><!---->
+                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-zira-1.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
                 </div>
             </div>
 

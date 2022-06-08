@@ -1,4 +1,5 @@
-const photos2 = ["../img/changing/chairs/chair1.jpg",
+<?php
+$photos = array("../img/changing/chairs/chair1.jpg",
 "../img/changing/chairs/chair2.jpg",
 "../img/changing/chairs/chair3.jpg",
 "../img/changing/chairs/chair4.jpg",
@@ -9,10 +10,10 @@ const photos2 = ["../img/changing/chairs/chair1.jpg",
 "../img/changing/elec/elec1.jpg",
 "../img/changing/elec/elec2.jpg",
 "../img/changing/elec/elec3.jpg",
-"../img/changing/elec/elec4.jpg"];
+"../img/changing/elec/elec4.jpg");
 
-const names2 = [
-"Fotel biurowy Zira",
+
+$names = array("Fotel biurowy Zira",
 "Fotel biurowy Shine czarny",
 "Fotel biurowy Shine biały",
 "Fotel gabinetowy Corium",
@@ -23,11 +24,9 @@ const names2 = [
 "Mysz APPLE Magic Mouse 2 Biała",
 "Mysz LOGITECH MX Anywhere 3 Grafitowy",
 "Logitech MX Keys",
-"Logitech K270"
-];
+"Logitech K270");
 
-const links2=[
-"../products/chairs/chair1.html",
+$links = array("../products/chairs/chair1.html",
 "../products/chairs/chair2.html",
 "../products/chairs/chair3.html",
 "../products/chairs/chair4.html",
@@ -38,11 +37,9 @@ const links2=[
 "../products/elec/elec1.html",
 "../products/elec/elec2.html",
 "../products/elec/elec3.html",
-"../products/elec/elec4.html"
-];
+"../products/elec/elec4.html");
 
-const prices = [
-"1 999 PLN",
+$prices =array("1 999 PLN",
 "1 335 PLN",
 "1 966 PLN",
 "2 220 PLN",
@@ -53,11 +50,9 @@ const prices = [
 "400 PLN",
 "360 PLN",
 "499 PLN",
-"139 PLN"
-];
+"139 PLN");
 
-const desc = [
-"Fotel gabinetowy Zira - zderzenie piękna z komfortem. Zaprojektowany przez studio Horn Design and Engineering fotel Zira przywodzi na myśl skojarzenia z prestiżowymi przestrzeniami. Stworzony z myślą o zapewnieniu najwyższego poziomu komfortu przy jednoczesnym zachowaniu estetyki. W efekcie powstał fotel, który nie tylko wygląda niesamowicie, ale również zapewnia wsparcie całego ciała. Wraz z intuicyjnym mechanizmem gwarantuje pełną ergonomię i komfort siedzenia na co dzień. Zira to z jednej strony minimalistyczny design, w którym nie ma żadnych zbędnych elementów ponad to co niezbędne.",
+$desc = array("Fotel gabinetowy Zira - zderzenie piękna z komfortem. Zaprojektowany przez studio Horn Design and Engineering fotel Zira przywodzi na myśl skojarzenia z prestiżowymi przestrzeniami. Stworzony z myślą o zapewnieniu najwyższego poziomu komfortu przy jednoczesnym zachowaniu estetyki. W efekcie powstał fotel, który nie tylko wygląda niesamowicie, ale również zapewnia wsparcie całego ciała. Wraz z intuicyjnym mechanizmem gwarantuje pełną ergonomię i komfort siedzenia na co dzień. Zira to z jednej strony minimalistyczny design, w którym nie ma żadnych zbędnych elementów ponad to co niezbędne.",
 "Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.",
 "Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120WA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.",
 "Nowoczesny i zarazem elegancki design inspirowany prostymi liniami, w połączeniu z wieloma wariantami kolorystycznymi sprawia, że fotel Corium idealnie odnajdzie się w eleganckim biurze, ale też w zaciszu domowego biura.",
@@ -68,11 +63,9 @@ const desc = [
 "Magic Mouse 2 to bezprzewodowa mysz renomowanej marki Apple. Stworzona została z myślą o użytkownikach komputerów MacBook. Mysz zaprojektowano z dbałością o najmniejszy szczegół i z niebywałą precyzją. Przyciski i kółka rozmieszczono tak, aby użytkownik mógł się cieszyć precyzyjnym sterowaniem i płynnym działaniem.",
 "Potrzebujesz mobilnej myszki? MX Anywhere 3 to niewielka myszka zaprojektowana z myślą o pracy mobilnej. Korzystaj z niej w dowolnym miejscu - w domu, w pociągu czy kawiarni i nie trać na wydajności.",
 "Logitech MX Keys to bezprzewodowa klawiatura z inteligentnym podświetleniem. Wklęsłe klawisze pracują cicho i dokładnie, szybko reagując na stuknięcia. Dzięki łączności Bluetooth klawiatura może pracować z kilkoma urządzeniami.",
-"ogitech K270 to płaska, bezprzewodowa, pełnowymiarowa klawiatura w kolorze czarnym. Połączysz ją ze swoim komputerem poprzez mały adapter USB. Dzięki temu Twoje stanowisko pracy zyskuje dodatkową przestrzeń – nie zajmuje go zbędny kabel. Klawiatura posiada membranowy typ klawiszy, dzięki czemu ma niską wagę i stosunkowo ciche działanie. Wydzielona sekcja numeryczna ułatwia przeprowadzanie szybkich kalkulacji."
-];
+"ogitech K270 to płaska, bezprzewodowa, pełnowymiarowa klawiatura w kolorze czarnym. Połączysz ją ze swoim komputerem poprzez mały adapter USB. Dzięki temu Twoje stanowisko pracy zyskuje dodatkową przestrzeń – nie zajmuje go zbędny kabel. Klawiatura posiada membranowy typ klawiszy, dzięki czemu ma niską wagę i stosunkowo ciche działanie. Wydzielona sekcja numeryczna ułatwia przeprowadzanie szybkich kalkulacji.");
 
-const bonus = [
-"https://pim.elzap.eu/resource/wymiary-zira-1.png?w=700&amp;fit=crop&quot",
+$bonus = array("https://pim.elzap.eu/resource/wymiary-zira-1.png?w=700&amp;fit=crop&quot",
 "https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot",
 "https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp",
 "https://pim.elzap.eu/resource/wymiary-corium.png?w=700&amp",
@@ -83,6 +76,5 @@ const bonus = [
 "https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/93/935780/5.jpg",
 "https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/25/2561334/Mysz-LOGITECH-MX-Anywhere-3-Grafitowy-funkcje1.jpg",
 "https://static.komputronik.pl/product-picture/6/KLLOGWIRDESMXKEYS-5.jpg",
-"https://static.komputronik.pl/product-picture/6/KLLOGWIREK270-5.jpg"
-];
-
+"https://static.komputronik.pl/product-picture/6/KLLOGWIREK270-5.jpg");
+?>

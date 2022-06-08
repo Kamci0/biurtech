@@ -1,4 +1,3 @@
-
 const photos2 = ["../img/changing/chairs/chair1.jpg",
 "../img/changing/chairs/chair2.jpg",
 "../img/changing/chairs/chair3.jpg",
@@ -11,7 +10,7 @@ const photos2 = ["../img/changing/chairs/chair1.jpg",
 "../img/changing/elec/elec2.jpg",
 "../img/changing/elec/elec3.jpg",
 "../img/changing/elec/elec4.jpg"];
-s
+
 const names2 = [
 "Fotel biurowy Zira",
 "Fotel biurowy Shine czarny",

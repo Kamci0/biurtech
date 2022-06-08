@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("1");
+        dodaj("4");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Zira</p><!---->
+                <p>Fotel gabinetowy Corium</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair1.jpg" alt=""><!---->
+                <img src="../../img/changing/chairs/chair4.jpg" alt=""><!---->
 
             </div>
 
@@ -75,18 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 999 PLN</span> 
-                    <a href="chair1.php?name=true" id="adding" >Dodaj do koszyka</a>
+                    <span>2 220 PLN</span> 
+                    <a href="chair4.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel gabinetowy Zira - zderzenie piękna z komfortem. Zaprojektowany przez studio Horn Design and Engineering fotel Zira przywodzi na myśl skojarzenia z prestiżowymi przestrzeniami. Stworzony z myślą o zapewnieniu najwyższego poziomu komfortu przy jednoczesnym zachowaniu estetyki. W efekcie powstał fotel, który nie tylko wygląda niesamowicie, ale również zapewnia wsparcie całego ciała. Wraz z intuicyjnym mechanizmem gwarantuje pełną ergonomię i komfort siedzenia na co dzień. Zira to z jednej strony minimalistyczny design, w którym nie ma żadnych zbędnych elementów ponad to co niezbędne.</p><!---->
+                <p>Nowoczesny i zarazem elegancki design inspirowany prostymi liniami, w połączeniu z wieloma wariantami kolorystycznymi sprawia, że fotel Corium idealnie odnajdzie się w eleganckim biurze, ale też w zaciszu domowego biura.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-zira-1.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img src="https://pim.elzap.eu/resource/wymiary-corium.png?w=700&amp" alt="wymiary"><!---->
                 </div>
             </div>
 
