@@ -118,21 +118,77 @@
                             </div>                          
                             ";
                         }else if($_SESSION['identity'][$i]==5){
-                            echo "<img src=".$photos[4].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[4]\">
+                                <span>$names[4]</span>
+                                <span>$prices[4]</span>
+                                <a href=\"cart.php?name=5\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==6){
-                            echo "<img src=".$photos[5].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[5]\">
+                                <span>$names[5]</span>
+                                <span>$prices[5]</span>
+                                <a href=\"cart.php?name=6\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==7){
-                            echo "<img src=".$photos[6].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[6]\">
+                                <span>$names[6]</span>
+                                <span>$prices[6]</span>
+                                <a href=\"cart.php?name=7\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==8){
-                            echo "<img src=".$photos[7].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[7]\">
+                                <span>$names[7]</span>
+                                <span>$prices[7]</span>
+                                <a href=\"cart.php?name=8\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==9){
-                            echo "<img src=".$photos[8].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[8]\">
+                                <span>$names[8]</span>
+                                <span>$prices[8]</span>
+                                <a href=\"cart.php?name=9\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==10){
-                            echo "<img src=".$photos[9].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[9]\">
+                                <span>$names[9]</span>
+                                <span>$prices[9]</span>
+                                <a href=\"cart.php?name=10\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==11){
-                            echo "<img src=".$photos[10].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[10]\">
+                                <span>$names[10]</span>
+                                <span>$prices[10]</span>
+                                <a href=\"cart.php?name=11\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }else if($_SESSION['identity'][$i]==12){
-                            echo "<img src=".$photos[11].">";
+                            echo "
+                            <div class=\"product\">
+                                <img src=\"$photos[11]\">
+                                <span>$names[11]</span>
+                                <span>$prices[11]</span>
+                                <a href=\"cart.php?name=12\" id=\"removing\" >Usuń</a>
+                            </div>                          
+                            ";
                         }
                     }
                 ?>
@@ -151,6 +207,51 @@
             </fieldset>
 
             <div id="delivery">
+
+                    <p>Zamów zawartość koszyka wartą: 
+
+                    <?php
+
+                    $suma=0;
+
+                    if(isset($_SESSION['suma'])){
+                        for($i = 0 ; $i<=$_SESSION['ilosc']-1 ; $i++){
+                            if($_SESSION['identity'][$i]==1){
+                                $suma+= 1999;
+                            }else if($_SESSION['identity'][$i]==2){
+                                $suma+=1335;
+                            }else if($_SESSION['identity'][$i]==3){
+                                $suma+=1966;
+                            }else if($_SESSION['identity'][$i]==4){
+                                $suma+=2220;
+                            }else if($_SESSION['identity'][$i]==5){
+                                $suma+=369;
+                            }else if($_SESSION['identity'][$i]==6){
+                                $suma+=439;
+                            }else if($_SESSION['identity'][$i]==7){
+                                $suma+=399;
+                            }else if($_SESSION['identity'][$i]==8){
+                                $suma+=289;
+                            }else if($_SESSION['identity'][$i]==9){
+                                $suma+=400;
+                            }else if($_SESSION['identity'][$i]==10){
+                                $suma+=360;
+                            }else if($_SESSION['identity'][$i]==11){
+                                $suma+=499;
+                            }else if($_SESSION['identity'][$i]==12){
+                                $suma+=139;
+                            }
+                        }
+                        echo $suma;
+                        $_SESSION['suma']=$suma;
+                    }else{
+                        echo $_SESSION['suma']=$suma;
+                    }
+                        
+                    ?>
+                    </p>
+
+                    <a href="../delivery/delivery.php">Zamów</a>
 
             </div>
         </div>

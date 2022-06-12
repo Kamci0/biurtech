@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("9");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>Mysz APPLE Magic Mouse 2 Biała</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/elec/elec1.jpg" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>400 PLN</span> 
+                    <a href="elec1.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Magic Mouse 2 to bezprzewodowa mysz renomowanej marki Apple. Stworzona została z myślą o użytkownikach komputerów MacBook. Mysz zaprojektowano z dbałością o najmniejszy szczegół i z niebywałą precyzją. Przyciski i kółka rozmieszczono tak, aby użytkownik mógł się cieszyć precyzyjnym sterowaniem i płynnym działaniem.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 100%;" src="https://prod-api.mediaexpert.pl/api/images/gallery_500_500/thumbnails/images/93/935780/5.jpg" alt="wymiary"><!---->
                 </div>
             </div>
 

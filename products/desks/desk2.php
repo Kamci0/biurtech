@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("6");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>Biurko Lofter LO9</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/desks/desk2.webp" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>469 PLN</span> 
+                    <a href="desk2.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Meble LOFTER to świetna propozycja do pokoju młodzieżowego jak i salonu. System składa się z 12 brył dzięki czemu każdy może dopasować zestaw według własnych potrzeb. Dzięki połączeniu betonu millenium z dębem wotan spełnią oczekiwania nawet najbardziej wymagających klientów.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 110%;" src="https://www.merkurymarket.pl/gfx/merkurymarket/_thumbs/sklep_oferta/87685/biurko_lofter_lo9_2,a4p0v5ebqFTw4YiqmplnarJphXd-kZ2p-jpg.webp" alt="wymiary"><!---->
                 </div>
             </div>
 

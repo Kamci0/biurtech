@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("11");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>Logitech MX Keys</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/elec/elec3.jpg" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>499 PLN</span> 
+                    <a href="elec3.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Logitech MX Keys to bezprzewodowa klawiatura z inteligentnym podświetleniem. Wklęsłe klawisze pracują cicho i dokładnie, szybko reagując na stuknięcia. Dzięki łączności Bluetooth klawiatura może pracować z kilkoma urządzeniami.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 100%;" src="https://static.komputronik.pl/product-picture/6/KLLOGWIRDESMXKEYS-5.jpg" alt="wymiary"><!---->
                 </div>
             </div>
 

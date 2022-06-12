@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("12");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>Logitech K270</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/elec/elec4.jpg" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>139 PLN</span> 
+                    <a href="elec4.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Logitech K270 to płaska, bezprzewodowa, pełnowymiarowa klawiatura w kolorze czarnym. Połączysz ją ze swoim komputerem poprzez mały adapter USB. Dzięki temu Twoje stanowisko pracy zyskuje dodatkową przestrzeń – nie zajmuje go zbędny kabel. Klawiatura posiada membranowy typ klawiszy, dzięki czemu ma niską wagę i stosunkowo ciche działanie. Wydzielona sekcja numeryczna ułatwia przeprowadzanie szybkich kalkulacji.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 100%;" src="https://static.komputronik.pl/product-picture/6/KLLOGWIREK270-5.jpg" alt="wymiary"><!---->
                 </div>
             </div>
 

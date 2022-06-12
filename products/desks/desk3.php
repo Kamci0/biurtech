@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("7");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>Biurko Berg 6 crem/dąb złoty</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/desks/desk3.webp" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>399 PLN</span> 
+                    <a href="desk3.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Kolekcja Berg idealni spełni się w aranżacji salonu czy pokoju dziennego. Ciekawie połączenie jasnego cremu z ciepłym kolorem dąb złoty sprawia, że wnętrze nabierze niezwykłego wyglądu. Ryflowane obrzeża oraz małe, zgrabne uchwyty nadają meblom elegancji. Głównym atutem systemu Berg jest funkcjonalność, pakowność oraz minimalistyczna stylistyka. Materiały i solidne wykonanie świadczą o wysokiej jakości mebli Berg.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 110%;" src="https://www.merkurymarket.pl/gfx/merkurymarket/_thumbs/sklep_oferta/26609/biurko_berg_6_cremdab_zloty,a4p0v5ebqFTw4Yiqmplna6lnhXt7mpqp-jpg.webp" alt="wymiary"><!---->
                 </div>
             </div>
 

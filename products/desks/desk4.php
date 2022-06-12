@@ -9,7 +9,7 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("2");
+        dodaj("8");
     }
 ?>
 <!DOCTYPE html>
@@ -61,13 +61,13 @@
 
             <div id="name">
 
-                <p>Fotel biurowy Shine czarny</p><!---->
+                <p>136x66x18 Model 0 Czarny Low</p><!---->
 
             </div>
 
             <div id="product">
 
-                <img src="../../img/changing/chairs/chair2.jpg" alt=""><!---->
+                <img src="../../img/changing/desks/desk4.webp" alt=""><!---->
 
             </div>
 
@@ -75,22 +75,18 @@
 
                 <div id="action">
                     
-                    <span>1 335 PLN</span> 
-
-                    <a href="chair2.php?name=true" id="adding" >Dodaj do koszyka</a>
-
-
-                    </form>
+                    <span>289 PLN</span> 
+                    <a href="desk4.php?name=true" id="adding" >Dodaj do koszyka</a>
                 </div><!---->
 
                 <br>
 
-                <p>Fotel Shine został zaprojektowany z myślą o osobach, które poza modą i stylowym designem zwracają uwage na pochodzenie materiałów. Minimalistyczna, a jednocześnie bardzo elegancka forma sprawia, że fotel biurowy Shine EFG 120BA, idealnie sprawdzi sie w domowym biurze jak i w firmie. Niemieccy projektanci w połączeniu z włoskim mechanizmem świartowej klasy sprawil, że koło fotela Shine nie da się przejsć obojętnie.</p><!---->
+                <p>Biurka GAMINGOWE DAMING seria LOW są stworzone z myślą o graczach, youtuberach, a także wymagających użytkownikach, którzy cenią sobie jakość i desing. Nasze biurka GAMINGOWE nie dość że mają wyjątkowy wygląd są solidne i trwałe. Każde biurko robione jest przez doświadczonego stolarza a nie hurtowo, przez co biurka są najwyższej jakości. Posiada gruby wytrzymały blat, regulowane nogi,  taśmę led.</p><!---->
 
                 <div id="bonus">
                     <p>Wymiary</p>
 
-                    <img src="https://pim.elzap.eu/resource/wymiary-shine-120.png?w=700&amp;fit=crop&quot" alt="wymiary"><!---->
+                    <img style="width: 110%;" src="https://www.merkurymarket.pl/gfx/merkurymarket/_thumbs/sklep_oferta/95659/biurko_gamingowe_136x66x18_model_0_czarny_low_3,a4p0v5ebqFTw4Yiqmplna6lpiXV_lZql-jpg.webp" alt="wymiary"><!---->
                 </div>
             </div>
 
