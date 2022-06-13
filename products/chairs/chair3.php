@@ -13,9 +13,8 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("3"); 
+        dodaj("3");         
     }
-
 ?>
     <meta charset="UTF-8">
     <title>BIURTECH</title>

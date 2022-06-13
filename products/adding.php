@@ -4,13 +4,7 @@ function dodaj($name){
 
     if($_SESSION['ilosc']<20){
     $_SESSION['identity'][$_SESSION['ilosc']]=$name;
-    $_SESSION['ilosc'] = $_SESSION['ilosc']+1; 
-    }else{
-        echo "<script type='text/javascript'>
-            alert('Nie można więcej dodać');
-        </script>";
-    }
-
+    $_SESSION['ilosc'] = $_SESSION['ilosc']+1;
     if($name==1){
         header("Location: chair1.php");
     }else if($name==2){
@@ -36,6 +30,11 @@ function dodaj($name){
     }else if($name==12){
         header("Location: elec4.php");
     }
-}
+    }else{
+        echo "<script type='text/javascript'>
+            alert('Nie można więcej dodać');
+        </script>";
+    }
 
+}
 ?>
