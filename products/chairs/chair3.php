@@ -1,3 +1,7 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
 <?php
     session_start();
     if(!isset($_SESSION['ilosc'])){
@@ -9,17 +13,18 @@
     require_once("../adding.php");
 
     if (isset($_GET['name'])) {
-        dodaj("3");
+        dodaj("3"); 
     }
+
 ?>
-<!DOCTYPE html>
-<html lang="pl">
-<head>
     <meta charset="UTF-8">
     <title>BIURTECH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" href="../../img/logo.jpg">
     <link rel="stylesheet" href="../products.css"/>
-    <script src="../../cart/items.js"></script>
 </head>
 <body>
     
@@ -107,7 +112,7 @@
             <div id="author">
                 <ul>
                     <li>Kamil Głowczyński</li>
-                    <li>numer w dzienniku: 7</li>
+                    <li>Oskar Urban</li>
                 </ul>
             </div>
 

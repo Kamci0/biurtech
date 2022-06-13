@@ -14,6 +14,10 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo.jpg">
     <title>BIURTECH</title>
     <link rel="stylesheet" href="delivery.css">
@@ -259,7 +263,7 @@
             <div id="author">
                 <ul>
                     <li>Kamil Głowczyński</li>
-                    <li>numer w dzienniku: 7</li>
+                    <li>Oskar Urban</li>
                 </ul>
             </div>
 

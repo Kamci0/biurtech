@@ -28,7 +28,6 @@ function zamien(){
     var link = document.getElementById("sudoP");
 
     photo.src=photos[i];
-    photo.style.width="400px"
     head.innerHTML=headers[i];
     cont.innerHTML=conts[i];
     price.innerHTML=prices[i];

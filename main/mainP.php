@@ -8,6 +8,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIURTECH</title>
     <link rel="stylesheet" href="../shared.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,7 +78,7 @@
 
                     <button onclick="zamienPop()"><</button>
 
-                    <a href="#" id="sudoP"><img id="photoSwap" src="#" alt="produk" value="abc"></a>
+                    <a href="#" id="sudoP"><img id="photoSwap" src="#" alt="produk" ></a>
 
                     <button onclick="zamienNast()">></button>
 
@@ -139,7 +140,7 @@
             <div id="author">
                 <ul>
                     <li>Kamil Głowczyński</li>
-                    <li>numer w dzienniku: 7</li>
+                    <li>Oskar Urban</li>
                 </ul>
             </div>
 

@@ -3,10 +3,6 @@ body{
     font-family: sans-serif;
 }
 
-*{
-    margin: 0;
-}
-
 a:-webkit-any-link{
     text-decoration: none;
 }
@@ -51,6 +47,12 @@ a:-webkit-any-link{
     text-decoration: none;
 }
 
+@media only screen and (max-width: 650px) {
+    #logos span a{
+        font-size: 20px;
+    }
+}
+
 #logos span a:hover{
     color: #176560;
 }
@@ -62,6 +64,12 @@ a:-webkit-any-link{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 650px) {
+    #logos #cart{
+        width: 30px;
+    }
 }
 
 #logos #cart img{
@@ -88,9 +96,21 @@ a:-webkit-any-link{
     transition: 300ms;
 }
 
+@media only screen and (max-width: 650px) {
+    #navi a{
+        font-size: 15px;
+    }
+}
+
 #navi a:hover{
     color: #176560;
     font-size: 23px;
+}
+
+@media only screen and (max-width: 650px) {
+    #navi a:hover{
+        font-size: 18px;
+    }
 }
 
 /*Content style*/
@@ -120,8 +140,15 @@ a:-webkit-any-link{
     margin-top: 20px;
 }
 
+
 #product img{
     border: 1px solid #176560;
+}
+
+@media only screen and (max-width: 650px) {
+    #product img{
+        width: 100%;
+    }
 }
 
 /*info style*/
@@ -129,6 +156,12 @@ a:-webkit-any-link{
 #content #info{
     width: 40%;
     text-align: justify;
+}
+
+@media only screen and (max-width: 650px) {
+    #content #info{
+        width: 65%;
+    }
 }
 
 #content #info #action{
@@ -160,10 +193,22 @@ a:-webkit-any-link{
 }
 #content #info #bonus p{
     font-weight: bold;
-    font-size: largew;
+    font-size: larger;
+}
+
+#content #info #bonus img{
+    width: 100%;
 }
 
 /*Footer style*/
+
+@media only screen and (max-width: 870px) {
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 #footer{
     height: max-content;
     width: 100%;
